@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:custm_painter/src/pages/slideshow_page.dart';
+import 'package:custm_painter/src/pages/emergency_page.dart';
+// import 'package:custm_painter/src/pages/slideshow_page.dart';
 // import 'package:custm_painter/src/labs/slideshow_page.dart';
 // import 'package:custm_painter/src/pages/graficas_circulaes_page.dart';
 // import 'package:custm_painter/src/pages/animaciones_page.dart';
@@ -14,12 +15,12 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
+    return MaterialApp(
       title: 'Diseños App',
       // home: AnimacionesPage(),
       // home: CuadradoAnimadoPage(),
       // home: GraficasCircularesPage(),
-      home: SlideshowPage(),
+      home: EmergencyPage(),
       debugShowCheckedModeBanner: false,
     );
   }
